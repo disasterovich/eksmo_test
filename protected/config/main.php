@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'Эксмо тест',
+	'name'=>'REST API BY DIZ',
         'defaultController' => 'api',
 
 	// preloading 'log' component
@@ -73,10 +73,10 @@ return array(
 		// uncomment the following to use a MySQL database
 
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=eksmo_test',
+			'connectionString' => 'mysql:host=localhost;dbname=test',
 			'emulatePrepare' => true,
 			'username' => 'root',
-			'password' => '123321',
+			'password' => 'pass_here',
 			'charset' => 'utf8',
                         'enableProfiling' => true,
 		),

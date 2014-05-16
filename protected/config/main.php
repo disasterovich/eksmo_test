@@ -89,11 +89,11 @@ return array(
 			'class'=>'CLogRouter',
 			'routes'=>array(
                             
-                            array(
-                                'class'=>'CProfileLogRoute',
-                                'levels'=>'profile',
-                                'enabled'=>true,
-                                ),
+//                            array(
+//                                'class'=>'CProfileLogRoute',
+//                                'levels'=>'profile',
+//                                'enabled'=>true,
+//                                ),
                                 
 				array(
 					'class'=>'CFileLogRoute',
